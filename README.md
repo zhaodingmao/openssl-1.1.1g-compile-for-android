@@ -2,6 +2,8 @@
 基于android-ndk-r16b编译openssl-1.1.1g支持android的armeabi、armeabi-v7a、arm64-v8a 架构ssl开发！
 编译配置中做了最大化的精简配置！
 
+编译后的静态库大小如下所示：
+
 [root@localhost openssl-1.1.1g]# ls -lh lib/android-arm* 
 
 lib/android-arm64-v8a:
