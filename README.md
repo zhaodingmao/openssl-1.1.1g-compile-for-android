@@ -2,7 +2,21 @@
 基于android-ndk-r16b编译openssl-1.1.1g支持android的armeabi、armeabi-v7a、arm64-v8a 架构ssl开发！
 编译配置中做了最大化的精简配置！
 
+[root@localhost openssl-1.1.1g]# ls -lh lib/android-arm* 
+lib/android-arm64-v8a:
+总用量 3.5M
+-rw-r--r-- 1 root root 2.8M 6月  18 18:18 libcrypto.a
+-rw-r--r-- 1 root root 699K 6月  18 18:18 libssl.a
 
+lib/android-armeabi:
+总用量 2.7M
+-rw-r--r-- 1 root root 2.2M 6月  18 18:18 libcrypto.a
+-rw-r--r-- 1 root root 551K 6月  18 18:18 libssl.a
+
+lib/android-armeabi-v7a:
+总用量 2.7M
+-rw-r--r-- 1 root root 2.2M 6月  18 18:18 libcrypto.a
+-rw-r--r-- 1 root root 551K 6月  18 18:18 libssl.a
 
 #依赖环境
   
