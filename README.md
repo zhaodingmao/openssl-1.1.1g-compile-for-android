@@ -48,13 +48,13 @@ armeabi编译
 [root@localhost openssl-1.1.1g]#make -j8
 
 
-armv7a编译
+armeabi-v7a编译
 
-执行setevn-android-armv7a.sh 
+执行setevn-android-armeabi-v7a.sh 
 
-[root@localhost openssl-1.1.1g]#chmod a+x setevn-android-armv7a.sh
+[root@localhost openssl-1.1.1g]#chmod a+x setevn-android-armeabi-v7a.sh
 
-[root@localhost openssl-1.1.1g]#source ./setevn-android-armv7a.sh
+[root@localhost openssl-1.1.1g]#source ./setevn-android-armeabi-v7a.sh
 
 配置openssl生成Makefile
 
@@ -70,11 +70,11 @@ armv7a编译
 
 arm64-v8a 编译
 
-执行setevn-android-arm64.sh 
+执行setevn-android-arm64-v8a.sh 
 
-[root@localhost openssl-1.1.1g]#chmod a+x setevn-android-arm64.sh
+[root@localhost openssl-1.1.1g]#chmod a+x setevn-android-arm64-v8a.sh
 
-[root@localhost openssl-1.1.1g]#source ./setevn-android-arm64.sh
+[root@localhost openssl-1.1.1g]#source ./setevn-android-arm64-v8a.sh
 
 [root@localhost openssl-1.1.1g]#
 ./Configure no-asm no-async no-shared no-md2 no-md4 no-mdc2 no-poly1305 no-blake2 no-siphash no-sm3 no-rc2 no-rc4 no-rc5 no-idea no-aria no-bf no-cast no-camellia no-seed no-sm4 no-chacha no-ec no-dsa no-sm2 no-dso no-engine no-err no-comp no-ocsp no-cms no-ts no-srp no-cmac no-ct  android64-aarch64
