@@ -10,11 +10,15 @@ NDK、openssl-1.1.1g源码、Make、makedepend
 参考链接：https://wiki.openssl.org/index.php/Android
 
 
-基础环境变量配置：#ANDROID_NDK_HOME 必须在/etc/profile配置
+基础环境变量配置：#ANDROID_NDK_HOME 必须在/etc/profile添加如下配置
+
+[root@localhost openssl-1.1.1g]# vim /etc/profile
 
 export ANDROID_NDK_HOME=/usr/ndk/android-ndk-r16b
 
 export PATH=$ANDROID_NDK_HOME:$PATH
+
+[root@localhost openssl-1.1.1g]# source /etc/profile
 
 生成Makefile.org文件
 
