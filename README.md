@@ -6,7 +6,7 @@
 
 #依赖环境
   
-NDK、openssl-1.1.1g源码、Make、makedepend
+android-ndk-r16b、make、makedepend
 
 参考链接：https://wiki.openssl.org/index.php/Android
 
